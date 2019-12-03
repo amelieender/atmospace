@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  server:
+    privileged: true
+    build: ./server
+    ports:
+      - "80:80"
